@@ -1,0 +1,60 @@
+aside{
+    background-color: red;
+}
+.flex{
+    display: flex;
+}
+.shadow{
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+}
+.size{
+    width: 100px;
+    height: 100px;
+}
+.box-container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    gap: 50px;
+}
+
+.item-1{
+    justify-content: space-between;
+    align-items: center;
+}
+.item-1 aside{
+    width: 20%;
+    height: 20%;
+    background-color: red;
+}
+.item-2{
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.item-2 aside{
+    width: 20%;
+    height: 20%;
+    background-color: red;
+}
+.item-3{
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+.item-3 aside{
+    width: 20%;
+    height: 20%;
+    background-color: red;
+}
+.item-4{
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+.item-4 aside{
+    width: 20%;
+    height: 20%;
+    background-color: red;
+}
